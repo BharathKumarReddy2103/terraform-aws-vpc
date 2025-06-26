@@ -124,4 +124,4 @@ This repository is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For any questions or support, reach out via GitHub issues or email at **bharath@example.com**.
+For any questions or support, reach out via GitHub issues
