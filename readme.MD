@@ -115,7 +115,7 @@ After applying, you will get the following outputs:
 
 ## Contributing
 
-We welcome contributions! Please submit issues or pull requests to improve this repository.
+We welcome contributions. Please submit issues or pull requests to improve this repository.
 
 ---
 
