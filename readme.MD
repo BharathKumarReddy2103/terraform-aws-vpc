@@ -1,5 +1,5 @@
 # VPC Module
-This module is developed for bharathdevops company. Projects inside bharathdevops follows this module to create their VPC.
+This module is developed for bharathdevops(company name) company. Projects inside bharathdevops follows this module to create their VPC.
 
 ## Inputs
 * project (required) - Users should specify their project name
