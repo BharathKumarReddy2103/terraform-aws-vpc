@@ -2,6 +2,9 @@
 
 This repository contains Terraform configuration files for creating and managing an AWS Virtual Private Cloud (VPC). It is designed to simplify the provisioning process while ensuring scalability, security, and flexibility.
 
+**Note:**  
+_This VPC setup is proven and reliable—I have successfully implemented it in my previous company and am currently using the same architecture in my present organization._
+
 ## Features
 
 - **VPC Creation**: Define and create a custom AWS VPC with the required CIDR block.
