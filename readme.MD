@@ -5,6 +5,17 @@ This repository contains Terraform configuration files for creating and managing
 **Note:**  
 _This VPC setup is proven and reliable—I have successfully implemented it in my previous company and am currently using the same architecture in my present organization._
 
+## Table of Contents
+- [Features](#features)
+- [Files Overview](#files-overview)
+- [Why Use This Repository?](#why-use-this-repository)
+- [Prerequisites](#prerequisites)
+- [Usage](#usage)
+- [Outputs](#outputs)
+- [Best Practices](#best-practices)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Features
 
 - **VPC Creation**: Define and create a custom AWS VPC with the required CIDR block.
@@ -119,4 +130,6 @@ We welcome contributions. Please submit issues or pull requests to improve this 
 
 ---
 
-## L
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
