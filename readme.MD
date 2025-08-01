@@ -94,7 +94,6 @@ _This VPC setup is proven and reliable—I have successfully implemented it in m
 
 ---
 
-<<<<<<< HEAD
 ## Outputs
 
 After applying, you will get the following outputs:
@@ -120,16 +119,4 @@ We welcome contributions. Please submit issues or pull requests to improve this 
 
 ---
 
-## License
-
-This repository is licensed under the [MIT License](LICENSE).
-
----
-
-## Contact
-
-For any questions or support, reach out via GitHub issues
-=======
-<!-- ## Outputs
-* vpc_id - Exports VPC ID created -->
->>>>>>> 29709b2 (updated file)
+## L
