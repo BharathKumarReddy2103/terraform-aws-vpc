@@ -12,16 +12,16 @@ resource "aws_vpc_peering_connection" "default" {
     allow_remote_vpc_dns_resolution = true
   }
 
-#   auto_accept = true
+  auto_accept = true
 
-#   tags = merge(
-#     var.vpc_peering_tags,
-#     local.common_tags,
-#     {
-#         Name = "${var.project}-${var.environment}-default"
-#     }
-#   )
-# }
+  tags = merge(
+    var.vpc_peering_tags,
+    local.common_tags,
+    {
+        Name = "${var.project}-${var.environment}-default"
+    }
+  )
+}
 
 # resource "aws_route" "public_peering" {
 #   count = var.is_peering_required ? 1 : 0
