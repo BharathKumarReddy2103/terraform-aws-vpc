@@ -20,9 +20,9 @@ variable "cidr_block" {
 #     default = {}
 # }
 
-# variable "public_subnet_cidrs" {
-#     type = list(string)
-# }
+variable "public_subnet_cidrs" {
+    type = list(string)
+}
 
 # variable "public_subnet_tags" {
 #     type = map(string)
