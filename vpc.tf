@@ -14,17 +14,17 @@ resource "aws_vpc" "main" {
 }
 
 # IGW roboshop-dev
-# resource "aws_internet_gateway" "main" {
-#   vpc_id = aws_vpc.main.id # association with VPC
+resource "aws_internet_gateway" "main" {
+  vpc_id = aws_vpc.main.id # association with VPC
 
-#   tags = merge(
-#     var.igw_tags,
-#     local.common_tags,
-#     {
-#         Name = "${var.project}-${var.environment}"
-#     }
-#   )
-# }
+  tags = merge(
+    var.igw_tags,
+    local.common_tags,
+    {
+        Name = "${var.project}-${var.environment}"
+    }
+  )
+}
 
 # # roboshop-dev-us-east-1a
 # resource "aws_subnet" "public" {
