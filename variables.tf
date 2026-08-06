@@ -15,10 +15,10 @@ variable "cidr_block" {
 #     default = {}
 # }
 
-# variable "igw_tags"{
-#     type = map(string)
-#     default = {}
-# }
+variable "igw_tags"{
+    type = map(string)
+    default = {}
+}
 
 # variable "public_subnet_cidrs" {
 #     type = list(string)
