@@ -48,15 +48,15 @@ variable "database_subnet_tags" {
     default = {}
 }
 
-# variable "eip_tags" {
-#     type = map(string)
-#     default = {}
-# }
+variable "eip_tags" {
+    type = map(string)
+    default = {}
+}
 
-# variable "nat_gateway_tags" {
-#     type = map(string)
-#     default = {}
-# }
+variable "nat_gateway_tags" {
+    type = map(string)
+    default = {}
+}
 
 # variable "public_route_table_tags" {
 #     type = map(string)
