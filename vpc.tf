@@ -104,41 +104,41 @@ resource "aws_nat_gateway" "main" {
   depends_on = [aws_internet_gateway.main]
 }
 
-# resource "aws_route_table" "public" {
-#   vpc_id = aws_vpc.main.id
+resource "aws_route_table" "public" {
+  vpc_id = aws_vpc.main.id
 
-#   tags = merge(
-#     var.public_route_table_tags,
-#     local.common_tags,
-#     {
-#       Name = "${var.project}-${var.environment}-public"
-#     }
-#   )
-# }
+  tags = merge(
+    var.public_route_table_tags,
+    local.common_tags,
+    {
+      Name = "${var.project}-${var.environment}-public"
+    }
+  )
+}
 
-# resource "aws_route_table" "private" {
-#   vpc_id = aws_vpc.main.id
+resource "aws_route_table" "private" {
+  vpc_id = aws_vpc.main.id
 
-#   tags = merge(
-#     var.private_route_table_tags,
-#     local.common_tags,
-#     {
-#       Name = "${var.project}-${var.environment}-private"
-#     }
-#   )
-# }
+  tags = merge(
+    var.private_route_table_tags,
+    local.common_tags,
+    {
+      Name = "${var.project}-${var.environment}-private"
+    }
+  )
+}
 
-# resource "aws_route_table" "database" {
-#   vpc_id = aws_vpc.main.id
+resource "aws_route_table" "database" {
+  vpc_id = aws_vpc.main.id
 
-#   tags = merge(
-#     var.database_route_table_tags,
-#     local.common_tags,
-#     {
-#       Name = "${var.project}-${var.environment}-database"
-#     }
-#   )
-# }
+  tags = merge(
+    var.database_route_table_tags,
+    local.common_tags,
+    {
+      Name = "${var.project}-${var.environment}-database"
+    }
+  )
+}
 
 # resource "aws_route" "public" {
 #   route_table_id            = aws_route_table.public.id
